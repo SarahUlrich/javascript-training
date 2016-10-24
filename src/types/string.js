@@ -61,3 +61,21 @@ console.log(test.substr(3, 5));
 
 // substring from char number 5 to char number 8
 console.log(test.substring(5, 8));
+
+
+
+var original = "ORIGinal";
+
+var tolower = original.toLowerCase() == "original";
+console.log(tolower);
+//true
+
+var toupper = original.toUpperCase() == "ORIGINAL";
+console.log(toupper);
+//true
+
+
+var aerien = "               superaérien                      ";
+console.log(aerien.trim() == "superaérien");
+//true
+
